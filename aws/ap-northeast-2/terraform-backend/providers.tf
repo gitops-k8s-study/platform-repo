@@ -9,3 +9,4 @@ provider "aws" {
 data "aws_availability_zones" "available" {
   exclude_names = ["ap-northeast-2a","ap-northeast-2c"]
 }
+
